@@ -1,10 +1,18 @@
-## Página Portfólio
+## Felicidade_CadastroClientes
 
-Esse projeto nasceu com objetivo de facilitar o processo de busca de informações a meu respeito, pois toda vez me candidato a uma vaga ou ofereço um serviço a alguém, o recrutador ou o cliente, provavelmente fariam uma pesquisa a meu respeito para saber informações pessoais, profissionais e conhecer meu trabalho. Para isso eles teriam que navegar em diversas redes sociais (instagram, linkedin), analisar meu currículo e repositórios git. Essa página tráz de maneira resumida todas essas informações e disponibiliza o acesso a essas redes de maneira mais rápida, poupando assim o tempo de quem estiver me avaliando.
 
-![Portfólio](https://i.imgur.com/wLPtKLU.png "Portfólio")
+Esse projeto nasceu com objetivo de aprender a criar cadastros de diferentes usuários para um banco de dados, bem como a recuperação desses dados em layouts dinâmicos.
+A página criada para isso é a de cadastro de moradores e colaboradores de um condominio residencial (na qual eu mesmo irei residir), o cadastro mostrará informações como nome, idade e contato do morador e também pessoas que residem com o mesmo, os pets dos moradores e outros.
+
+![Home Felicidade_CadastroClientes](https://i.imgur.com/uaBfl3Z.png "Home Felicidade_CadastroClientes")
+
+![CColaboradores  Felicidade_CadastroClientes](https://i.imgur.com/cYmYABY.png "CColaboradores  Felicidade_CadastroClientes")
+
+![Moradores Felicidade_CadastroClientes](https://i.imgur.com/NTGJtkd.png "Moradores Felicidade_CadastroClientes")
 
 Foram utilizadas as tecnologias:
 - HTML5
 - CSS3
 - Javascript
+- Nunjucks
+
