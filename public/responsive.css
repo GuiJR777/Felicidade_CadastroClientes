@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px){
+    .apresentation, .apresentation2{
+        width: 80%;
+        height: auto;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        
+    }
+}

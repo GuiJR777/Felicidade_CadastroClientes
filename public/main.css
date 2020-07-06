@@ -1,0 +1,106 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap";
+
+:root{
+ --bt-color: #FB9B09;
+ --title-color: #0072FF;
+ --hover-color: #00B8D4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+body{
+    background-image: url(./img/Background.png);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    background: var(--bt-color);
+    color: white;
+    border-bottom: 2px solid var(--hover-color);
+    
+    
+}
+header .logo{
+    padding-left: 50px;
+}
+header .logo img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+}
+header .logo img:hover{
+    background-color: var(--hover-color);
+    border-radius: 8px;
+}
+
+header .pages{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+header .pages a{
+    color: gray;
+    margin: 0 16px;
+    text-decoration: none;
+    transition: color 400ms;
+    line-height: 30px;
+
+}
+header .pages a.atual{
+    color: white;
+    
+}
+header .pages a:hover{
+    color: var(--hover-color);
+    transition: color 400ms;
+    font-size: 150%;
+    font-weight: 700;
+}
+footer{
+    background: var(--bt-color);
+    color: white;
+    border-top: 2px solid var(--hover-color);
+    display: flex;
+}
+footer div{
+    margin: 0px auto;
+    text-align: center;
+}
+footer div:last-child{
+    margin: 0px 0px 0px auto;
+    
+}
+img{
+    width: 200px;
+    height: auto;
+    
+}
+footer .adress{
+    padding-right: 20px;
+    text-align: left;
+    font-size: 12px;
+    width: 400px;
+    height: auto;
+}
+footer .contacts{
+    display: flex;
+}
+footer .contacts .insta{
+    margin: 10px 20px;
+}
+footer .contacts .face{
+    margin: 10px 20px;
+}
+footer .contacts .insta img, .face img{
+    height: 30px;
+    width: 30px;
+}
+
+
+

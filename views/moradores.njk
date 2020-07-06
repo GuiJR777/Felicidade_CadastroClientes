@@ -1,0 +1,81 @@
+{% extends "layoutpadrao.njk" %}
+
+{% block styles %}
+        <title>Moradores</title>
+
+        <link rel="stylesheet" href="moradores.css">
+        <script type="text/javascript" src="/scripts/script.js"> </script>
+{% endblock %}
+
+{% block content %}
+    
+    <div class="title">
+        <h1>Moradores</h1>
+    </div>
+
+     <div class="card">
+        <section class="userimg">
+            <div class="foto">
+                <img src="/img/Guilherme.png" alt="imagem de user">
+            </div>
+            <div class="icons">
+                <div class="type">
+                    <div class="icon">
+                        <img src="/img/home.svg" alt="imagem de user">
+                    </div>
+                    
+                </div>
+                <div class="ap">
+                    <div class= "pic">
+                        <img src="/img/Stéphanie2.png" alt="imagem de user">
+                    </div>
+                    <div class= "pic">
+                        <img src="/img/Sherlock.png" alt="imagem de user">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+        <section class="userinfo">
+            <h3>Informações</h3>
+
+            <div class="info">
+                <div class="question">Nome:</div>
+                <div class="answer">Guilherme Jesuino Ramires</div>
+            </div>
+            <div class="info">
+                <div class="question">Aniversário:</div>
+                <div class="answer">11/03/1997</div>
+            </div>
+            <div class="info">
+                <div class="question">Sexo:</div>
+                <div class="answer">Masculino</div>
+            </div>
+            <div class="info">
+                <div class="question">Relacionamento:</div>
+                <div class="answer">Casado</div>
+            </div>
+            <div class="info">
+                <div class="question">Bloco:</div>
+                <div class="answer">6</div>
+            </div>
+            <div class="info">
+                <div class="question">Apartamento:</div>
+                <div class="answer">306</div>
+            </div>
+            <div class="info">
+                <div class="question">Contatos:</div>
+                <div class="answer">
+                    <a href="https://api.whatsapp.com/send?phone=5548984634295&text=Ol%C3%A1%2C%20assim%20que%20poss%C3%ADvel%20responderei%20sua%20mensagem.">
+                        <img src="/img/whatsapp.svg" alt="whatsapp">
+                    </a>
+                    <a href="https://www.instagram.com/guilhermejramires">
+                        <img src="/img/instagram-esbocado.svg" alt="instagram">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+{% endblock %}

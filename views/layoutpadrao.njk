@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+       
+        {% block styles %}{% endblock %}
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="responsive.css">
+
+    </head>
+
+    <body>
+        <header>
+
+            <div class="logo">
+                <a href="/"><img src="/img/Felicidade_Logo.png" alt="Logo Felicidade"></a>
+            </div>
+           
+            <div class= "pages">
+
+                <a href="/moradores">Moradores</a>
+                <a href="/" class= "atual">Home</a>
+                <a href="/colaboradores">Colaboradores</a>
+                
+            </div>
+        </header>
+        {% block content %}{% endblock %}
+        
+        <footer>
+            <div>
+                <img src="/img/Felicidade_branco.png" alt="Logo Felicidade">
+            </div>
+            <div class="contacts">
+                <div class="insta">
+                    <a href="https://www.instagram.com/res.felicidade/" target="_blank">
+                        <img src="/img/instagram-esbocado.svg" alt="Pagina Instagram">
+                    </a>
+                </div>
+                <div class="face">
+                    <a href="https://www.facebook.com/res.felicidade" target="_blank">
+                        <img src="/img/facebook.svg" alt="Pagina Facebook">
+                    </a>
+                </div>
+                
+            </div>
+            <div class="adress">
+                <p>Endereço:</p>
+                <p>Estr. Anarolina Silveira Santos, 175 - Vargem do Bom Jesus, Florianópolis - SC, 88056-590</p>
+            </div>
+            
+        </footer>
+
+    </body>
+</html>
